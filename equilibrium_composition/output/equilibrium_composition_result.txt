@@ -1,0 +1,120 @@
+Temperature: 373.15 K
+Equilibrium constant: 9.11e-15
+Converged:
+Methane Conversion (x): 0.0011
+m_H2: 0.14%, m_CO2: 0.03%, m_CH4: 33.28%, m_H2O: 66.55%
+----------------------------------------------------------
+Temperature: 423.15 K
+Equilibrium constant: 5.89e-12
+Converged:
+Methane Conversion (x): 0.0038
+m_H2: 0.51%, m_CO2: 0.13%, m_CH4: 33.12%, m_H2O: 66.24%
+----------------------------------------------------------
+Temperature: 473.15 K
+Equilibrium constant: 1.04e-09
+Converged:
+Methane Conversion (x): 0.0108
+m_H2: 1.42%, m_CO2: 0.36%, m_CH4: 32.74%, m_H2O: 65.48%
+----------------------------------------------------------
+Temperature: 523.15 K
+Equilibrium constant: 7.22e-08
+Converged:
+Methane Conversion (x): 0.0250
+m_H2: 3.28%, m_CO2: 0.82%, m_CH4: 31.97%, m_H2O: 63.94%
+----------------------------------------------------------
+Temperature: 573.15 K
+Equilibrium constant: 2.50e-06
+Converged:
+Methane Conversion (x): 0.0503
+m_H2: 6.49%, m_CO2: 1.62%, m_CH4: 30.63%, m_H2O: 61.26%
+----------------------------------------------------------
+Temperature: 623.15 K
+Equilibrium constant: 5.07e-05
+Converged:
+Methane Conversion (x): 0.0904
+m_H2: 11.37%, m_CO2: 2.84%, m_CH4: 28.60%, m_H2O: 57.19%
+----------------------------------------------------------
+Temperature: 673.15 K
+Equilibrium constant: 6.76e-04
+Converged:
+Methane Conversion (x): 0.1480
+m_H2: 17.96%, m_CO2: 4.49%, m_CH4: 25.85%, m_H2O: 51.70%
+----------------------------------------------------------
+Temperature: 723.15 K
+Equilibrium constant: 6.44e-03
+Converged:
+Methane Conversion (x): 0.2237
+m_H2: 25.95%, m_CO2: 6.49%, m_CH4: 22.52%, m_H2O: 45.04%
+----------------------------------------------------------
+Temperature: 773.15 K
+Equilibrium constant: 4.67e-02
+Converged:
+Methane Conversion (x): 0.3148
+m_H2: 34.69%, m_CO2: 8.67%, m_CH4: 18.88%, m_H2O: 37.75%
+----------------------------------------------------------
+Temperature: 823.15 K
+Equilibrium constant: 2.70e-01
+Converged:
+Methane Conversion (x): 0.4154
+m_H2: 43.38%, m_CO2: 10.84%, m_CH4: 15.26%, m_H2O: 30.52%
+----------------------------------------------------------
+Temperature: 873.15 K
+Equilibrium constant: 1.29e+00
+Converged:
+Methane Conversion (x): 0.5172
+m_H2: 51.28%, m_CO2: 12.82%, m_CH4: 11.97%, m_H2O: 23.93%
+----------------------------------------------------------
+Temperature: 923.15 K
+Equilibrium constant: 5.28e+00
+Converged:
+Methane Conversion (x): 0.6121
+m_H2: 57.96%, m_CO2: 14.49%, m_CH4: 9.18%, m_H2O: 18.37%
+----------------------------------------------------------
+Temperature: 973.15 K
+Equilibrium constant: 1.88e+01
+Converged:
+Methane Conversion (x): 0.6944
+m_H2: 63.29%, m_CO2: 15.82%, m_CH4: 6.96%, m_H2O: 13.93%
+----------------------------------------------------------
+Temperature: 1023.15 K
+Equilibrium constant: 5.95e+01
+Converged:
+Methane Conversion (x): 0.7619
+m_H2: 67.37%, m_CO2: 16.84%, m_CH4: 5.26%, m_H2O: 10.53%
+----------------------------------------------------------
+Temperature: 1073.15 K
+Equilibrium constant: 1.70e+02
+Converged:
+Methane Conversion (x): 0.8151
+m_H2: 70.42%, m_CO2: 17.60%, m_CH4: 3.99%, m_H2O: 7.98%
+----------------------------------------------------------
+Temperature: 1123.15 K
+Equilibrium constant: 4.45e+02
+Converged:
+Methane Conversion (x): 0.8561
+m_H2: 72.67%, m_CO2: 18.17%, m_CH4: 3.05%, m_H2O: 6.11%
+----------------------------------------------------------
+Temperature: 1173.15 K
+Equilibrium constant: 1.08e+03
+Converged:
+Methane Conversion (x): 0.8872
+m_H2: 74.33%, m_CO2: 18.58%, m_CH4: 2.36%, m_H2O: 4.72%
+----------------------------------------------------------
+Temperature: 1223.15 K
+Equilibrium constant: 2.43e+03
+Converged:
+Methane Conversion (x): 0.9108
+m_H2: 75.56%, m_CO2: 18.89%, m_CH4: 1.85%, m_H2O: 3.70%
+----------------------------------------------------------
+Temperature: 1273.15 K
+Equilibrium constant: 5.17e+03
+Converged:
+Methane Conversion (x): 0.9287
+m_H2: 76.48%, m_CO2: 19.12%, m_CH4: 1.47%, m_H2O: 2.94%
+----------------------------------------------------------
+Temperature: 1323.15 K
+Equilibrium constant: 1.04e+04
+Converged:
+Methane Conversion (x): 0.9424
+m_H2: 77.17%, m_CO2: 19.29%, m_CH4: 1.18%, m_H2O: 2.36%
+----------------------------------------------------------
