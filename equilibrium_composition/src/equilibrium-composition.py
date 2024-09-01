@@ -2,11 +2,11 @@ import numpy as np
 from scipy.optimize import newton
 import os
 
-# 出力ディレクトリを指定
-if not os.path.exists("./equilibrium_composition/output"):
-    os.makedirs("./equilibrium_composition/output")
+output_dir = "./equilibrium_composition/output"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
-output_file_path = os.path.join("./equilibrium_composition/output", "equilibrium_composition_result.txt")
+output_file_path = os.path.join(output_dir, "equilibrium_composition_result.txt")
 
 # 平衡定数K_pを計算する関数
 def calculate_equilibrium_constant(T):
