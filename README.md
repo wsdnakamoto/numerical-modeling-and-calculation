@@ -49,7 +49,33 @@
 
 - ## タイプ/数値解法
     θをωと置くことで2階常微分方程式から2元1階常微分方程式になる.  
-    埋め込み型Runge-Kutta法(RK45)  
+    埋め込み型Runge-Kutta法(RK45)
+
+# semi_infinite_solid_heat_conduction(半無限体の非定常熱伝導)
+
+- ## 条件
+  建物のコンクリート壁が日射によって熱せられ, その内部が55 ℃(=328.15 K)で均一.
+  その後20 ℃(=293.15 K)の雨が1時間にわたって降った.
+  壁面から0.05 mの位置の温度はいくつか.  
+  ディクリレ条件で考える. 壁面の温度は20 ℃.
+  各物性値はコードを参照.  
+  温度分布の時間変化を調べる為の1次元の非定常熱伝導方程式は式(1)であり, 中心差分により右辺の項はそれぞれ式(2)になり式(1)は式(3)になる. これをRunge-Kutta法で数値計算する.  
+  もう一方で, 壁を半無限体と仮定しガウスの誤差関数を用いて温度を求める(式(4)).
+  ```math
+  \frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} \right) \quad \text{...(1)}
+  ```
+  ```math
+  \frac{\partial^2 T}{\partial x^2} \approx \frac{T_{i+1} - 2T_{i} + T_{i-1}}{\Delta x^2} \quad \text{...(2)}
+  ```
+  ```math 
+  \frac{\partial T}{\partial t} = \alpha \left( \frac{T_{i+1} - 2T_{i} + T_{i-1}}{\Delta x^2} \right) \quad \text{...(3)}
+  ```
+  ```math
+  \frac{T - T_0}{T_i - T_0} = \frac{2}{\sqrt{\pi}} \int_0^{\frac{x}{2\sqrt{\alpha t}}} e^{-\eta^2} \, \mathrm{d}\eta = \text{erf} \left( \frac{x}{2\sqrt{\alpha t}} \right) \quad \text{...(4)}
+  ```
+- ## タイプ/数値解法
+  2階偏微分方程式(1次元の非定常熱伝導方程式)/中心差分とRunge-Kutta法  
+  半無限体と仮定しガウスの誤差関数で温度を調べる.  
 
 # transient_heat_conduction_2d(2次元の非定常熱伝導)
 
